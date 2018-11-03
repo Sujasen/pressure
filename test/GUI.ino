@@ -1,6 +1,6 @@
 #include "U8glib.h"
-
-U8GLIB_SH1106_128X64 u8g(13, 11, 10, 9, 8);
+                     //  D0, D1, CS, DC, RES
+U8GLIB_SH1106_128X64 u8g(13, 11, 10,  9,  8); 
 
 int ran[6];
 void drawCir(int cir1, int cir2, int cir3, int cir4, int cir5, int cir6){
